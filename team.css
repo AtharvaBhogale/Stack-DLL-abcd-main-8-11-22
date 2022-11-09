@@ -39,7 +39,6 @@ body {
   height: 260px;
   width: 260px;
   border-radius: 50%;
-  filter: grayscale(100%);
   cursor: pointer;
   transition: 400ms;
 }
@@ -48,9 +47,30 @@ body {
   filter: grayscale(0);
 }
 
-.user-name {
-  margin-top: 30px;
-  font-size: 35px;
+.user-name{
+  margin-top: 10px;
+  font-size: 50 px;
+}
+
+.user-name- {
+   margin-bottom: 20px;
+  font-size: 70px;
+}
+
+.user-name-- {
+  margin-bottom: 20px;
+ font-size: 15px;
+}
+
+.navbar-brand {
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  margin-right: 1rem;
+  margin-left: 10px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .profile h5 {
